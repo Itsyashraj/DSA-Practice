@@ -15,6 +15,6 @@ Note: Index or Position start from 0.
 7. unset all bits from LSB to ith position
       mask = ~((1 << i+1)-1);
       res = num & mask
-8.  unset all bits from MSB to ith position
+8. unset all bits from MSB to ith position
       mask = (1 << i+1) - 1;
       res = num & mask
