@@ -30,4 +30,6 @@ Note: Index or Position start from 0.
 	  a = a^b;
 13. check is given integer num is power of two or not
     if(x & x-1) == 0 => power of two
+14. 0xnum => consider num as hexadecimal number
+	ex: 0x55 = 0101 0101
 
